@@ -133,14 +133,16 @@ div.hero div.fixed-width h1{
   font-family: 'Pacifico', cursive;
   font-size: 5em;
   color: #bb7461;
-  width: 50%;
-  text-align: left;
+  width: 300px;
+  float: left;
+  margin-top:50px;
 }
 
 div.hero div.fixed-width img{
   display: inline;
   float: right;
-  padding: 20px;
+  padding: 10px;
+  width: 300px
 }
 
 div.clear{clear:both}
