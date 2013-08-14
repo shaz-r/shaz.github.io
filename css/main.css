@@ -21,3 +21,6 @@ body {
       body .container.contact a:hover {
         text-decoration: none;
         border: 0; }
+
+a {
+  color: #bb7461; }
