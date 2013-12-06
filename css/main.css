@@ -18,3 +18,9 @@ a:hover{ color: black }
 p.links{
   font-size: 22px;
 }
+p:not(.links) a{
+  text-decoration: underline;
+}
+p:not(.links) a:hover{
+  text-decoration: none;
+}
