@@ -1,13 +1,13 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  color: #3b444c;
+  color: #333;
 }
 a, a:hover{
-  color: #3b444c;
+  color: #333;
   text-decoration: none;
 }
-a:hover{ color: black }
+a:hover{ color: #111}
 .row{ margin-top: 50px; }
 .row.header h1{
   font-family: Pacifico;
@@ -19,7 +19,7 @@ p.links{
   font-size: 22px;
 }
 p:not(.links) a{
-  border-bottom: 1px dotted #3b444c;
+  border-bottom: 1px dotted #333;
 }
 p:not(.links) a:hover{
   border-bottom: none;
