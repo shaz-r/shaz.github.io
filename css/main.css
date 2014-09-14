@@ -1,26 +1,40 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: lighter;
   text-align: center;
-  color: #333;
+  color: #fff;
+  background-color: #333;
+  font-size: 16px;
 }
 a, a:hover{
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
-a:hover{ color: #111}
+a:hover{ color: #dedede }
+
 .row{ margin-top: 50px; }
-.row.header h1{
+
+h1{
   font-family: Pacifico;
-  font-size: 72px;
-  font-weight: bold;
-  margin-top: 40px;
-}
-p.links{
-  font-size: 22px;
+  font-size: 8vw;
 }
 p:not(.links) a{
-  border-bottom: 1px dotted #333;
+  border-bottom: 1px dotted #ccc;
 }
 p:not(.links) a:hover{
   border-bottom: none;
+}
+img.grayscale{ 
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); 
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0)); 
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0)); 
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0)); 
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0)); 
 }
