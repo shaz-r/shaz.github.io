@@ -30,6 +30,14 @@ img.grayscale{
   filter: grayscale(100%); 
 }
 
+/* Stupidly big picture on screens < 768px */
+@media(max-width:768px){
+  img.grayscale{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
 hr{
   border: 0;
   height: 1px;
