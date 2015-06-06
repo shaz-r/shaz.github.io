@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Shaz Amjad</title>
+ <link href="https://shazamjad.com//atom.xml" rel="self"/>
+ <link href="https://shazamjad.com//"/>
+ <updated>2015-06-07T00:12:27+10:00</updated>
+ <id>https://shazamjad.com/</id>
+ <author>
+   <name>Shaz Amjad</name>
+   <email>shazamjad@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>(Ghetto) Database Backups</title>
+   <link href="https://shazamjad.com//2015/06/06/ghetto-database-backups/"/>
+   <updated>2015-06-06T00:00:00+10:00</updated>
+   <id>https://shazamjad.com//2015/06/06/ghetto-database-backups</id>
+   <content type="html">&lt;p&gt;I have a server. I have a database. I want to back it up. I have to figure out a solution that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Is (mostly) reliable&lt;/li&gt;
+  &lt;li&gt;Gives me access to backups on the server, at my work computer and the one at home&lt;/li&gt;
+  &lt;li&gt;Did I mention the time constraint of setting one up?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lo and behold, dropbox to the rescue.&lt;/p&gt;
+
+&lt;p&gt;Yup - there’s a cron job that runs “mongodump” twice a day into a dropbox folder on the server. &lt;/p&gt;
+
+&lt;p&gt;Which syncs with all my computers, and available on the web.&lt;/p&gt;
+
+&lt;p&gt;Total setup time? Less than an hour. &lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://www.dropbox.com/install?os=lnx&quot;&gt;dropbox linux&lt;/a&gt; and their &lt;a href=&quot;https://linux.dropbox.com/packages/dropbox.py&quot;&gt;python&lt;/a&gt; script to autostart/manage your dropbox via the command line.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

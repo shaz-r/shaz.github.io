@@ -1,0 +1,28 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Shaz Amjad
+tagline:             'hacker, jetsetter, competitive dancer and non-burly biker'
+description:         'Musings of a somebody still discovering his place in this ever shrinking world.'
+url:                 https://shazamjad.com/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Shaz Amjad
+  url:               https://shazamjad.com/
+  email:             shazamjad@gmail.com
+
+socmed:
+  facebook: shaz.amjad
+  twitter: shazamjad
+  linkedin: shazamjad
+  googleplus: ShazAmjad
+  github: shazamjad
+  stackoverflow: 843130/shaz-amjad
+  skype: shazamjad

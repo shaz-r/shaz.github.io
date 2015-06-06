@@ -1,66 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="Description" CONTENT="" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="favicon.ico" rel="shortcut icon">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Shaz Amjad - hacker, jet-setter, competitive dancer and non-burly biker</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-sm-offset-3">
-          <img class="img-responsive grayscale" width="100%" src="img/shazamjad.png">
-        </div>
-        <div class="col-sm-3">
-          <h1>Shaz Amjad</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <p>Tech lead specializing in building up early stage startups.</p>
-          <p>Cake, Rails, Backbone, Mongo, Meteor - language / platform agnostic jack-of-all-trades.</p>
-          <p>Hacker, jet-setter, competitive dancer and non-burly biker</p>
-          <hr />
-          <p class="links">
-            <a href="http://goo.gl/JwXGAc">
-              <i class="fa fa-file-text"></i>
-            </a>
-            <a href="mailto:shazamjad@gmail.com">
-              <i class="fa fa-envelope"></i>
-            </a>
-            <a href="https://medium.com/@shazamjad">
-              <i class="fa fa-pencil-square"></i>
-            </a>
-            <a href="skype:shazamjad">
-              <i class="fa fa-skype"></i>
-            </a>
-            <a href="http://uk.linkedin.com/in/shazamjad">
-              <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="http://www.twitter.com/shazamjad">
-              <i class="fa fa-twitter-square"></i>
-            </a>
-            <a href="http://www.facebook.com/shaz.amjad">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://plus.google.com/+ShazAmjad">
-              <i class="fa fa-google-plus"></i>
-            </a>
-            <a href="http://stackoverflow.com/users/843130/shaz-amjad">
-              <i class="fa fa-stack-overflow"></i>
-            </a>
-            <a href="https://github.com/shazamjad">
-              <i class="fa fa-github"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+
