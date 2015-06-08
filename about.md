@@ -5,7 +5,7 @@ title: About
 
 Currently the tech genius<sup>\*</sup> at [brosa](http://brosa.com.au), all the way down under.
 
-Briefly at [hytch](http://hytch.io) in Berlin. Much longer at [veneumob](http://www.venuemob.com.au/) as a developer before then.
+Much longer at [veneumob](http://www.venuemob.com.au/) before then.
 
 Mentor at the [#endsv](https://www.gov.uk/government/topical-events/sexual-violence-in-conflict) hackathon.
 
