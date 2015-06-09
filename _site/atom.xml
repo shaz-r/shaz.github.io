@@ -4,7 +4,7 @@
  <title>Shaz Amjad</title>
  <link href="https://shazamjad.com//atom.xml" rel="self"/>
  <link href="https://shazamjad.com//"/>
- <updated>2015-06-09T22:56:21+10:00</updated>
+ <updated>2015-06-09T23:10:01+10:00</updated>
  <id>https://shazamjad.com/</id>
  <author>
    <name>Shaz Amjad</name>
@@ -24,8 +24,8 @@
 &lt;p&gt;First things first - I got myself onto eBay and ordered me the following:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;8gb of Ram (4 x 2gb - made sure to get the ones with the heatsink on them)&lt;/li&gt;
-  &lt;li&gt;Airport Extreme (BCM94360CD to be exact - has 802.11ac, Bluetooth 4.0 etc)&lt;/li&gt;
+  &lt;li&gt;8gb of Ram (4 x 2gb - made sure to get the ones with the heatsink on them)&lt;sup&gt;&lt;a href=&quot;http://www.ebay.com.au/usr/efetchercom?_trksid=p2060353.m2749.l2754&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Airport Extreme (BCM94360CD to be exact - has 802.11ac, Bluetooth 4.0 etc)&lt;sup&gt;&lt;a href=&quot;http://www.ebay.com.au/usr/integrity-e?_trksid=p2060353.m2749.l2754&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;480GB OZC ARC100 SSD&lt;/li&gt;
   &lt;li&gt;Gigabyte Radeon R9 290XOC&lt;/li&gt;
 &lt;/ul&gt;
@@ -34,17 +34,17 @@
 
 &lt;p&gt;The 6-pin mini pci-e auxillary power ports on the motherboard are intended to provide up to 75W each - some resources state they can give up to 150W / throttle down connections by providing 75W but I’d rather not take that chance. The PCI-Express slots themselves provide 75W each. So I’m at 225W when I use both aux power ports and the power from the slot itself, somewhat shy of 300W needed by the graphics card. Since I’m only using one optical drive, and have a spare Hard Disk spot - I got some wires to have them all going into the graphics card.&lt;/p&gt;
 
-&lt;p&gt;To start with, I got myself a &lt;em&gt;Mac Pro 6-pin (mini pci-e) to 6-pin PCI-e Cable&lt;/em&gt;. This one went straight from my motherboard into my graphics card, no dramas. &lt;/p&gt;
+&lt;p&gt;To start with, I got myself a &lt;em&gt;Mac Pro 6-pin (mini pci-e) to 6-pin PCI-e Cable&lt;/em&gt;&lt;sup&gt;&lt;a href=&quot;http://www.ebay.com.au/usr/pc_store09?_trksid=p2060353.m2749.l2754&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. This one went straight from my motherboard into my graphics card, no dramas. &lt;/p&gt;
 
 &lt;p&gt;Next up was purchasing a &lt;em&gt;Molex extension cable&lt;/em&gt; (30cm worked well) - I plugged it into the 2nd optical drive power and routed it through the underside along all the other wires. If you have an Airport Extreme card - be careful as those antenna wires will easily pop out! It is a really tight squeeze but it does go through that gap.&lt;/p&gt;
 
-&lt;p&gt;I should mention that for the 8-pin pci-e input in to the graphics card I am using the provided cable (8-pin to 2x Molex), and in went the power from optical drive to one of the molex’s. I also got a &lt;em&gt;SATA to Molex&lt;/em&gt; cable and a &lt;em&gt;Molex Splitter (1 into 2)&lt;/em&gt;, alongside a &lt;em&gt;Mac Pro 6-pin (mini pci-e) to Molex&lt;/em&gt; cable. The Mac Pro cable was rather odd as it provided a Male molex port (power providers should be female), regardless I also had a Male port from the &lt;em&gt;SATA to Molex&lt;/em&gt; cable (as it was intended to provide power for SATA), so they both went into the splitter and that went into the other available Molex plug on the Graphics Card.&lt;/p&gt;
+&lt;p&gt;I should mention that for the 8-pin pci-e input in to the graphics card I am using the provided cable (8-pin to 2x Molex Male), and in went the power from optical drive to one of the molex’s. I also got a &lt;em&gt;SATA to Molex&lt;/em&gt; cable (M2F) and a &lt;em&gt;Molex Splitter (1 into 2)&lt;/em&gt;, alongside a &lt;em&gt;Mac Pro 6-pin (mini pci-e) to Molex&lt;/em&gt;&lt;sup&gt;&lt;a href=&quot;http://www.ebay.com.au/usr/crazyconn?_trksid=p2060353.m2749.l2754&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; cable. The Mac Pro cable was rather odd as it provided a Male molex port (power providers should be female), regardless I also had a female port from the &lt;em&gt;SATA to Molex&lt;/em&gt; cable (as it was intended to provide power for SATA), so one split end went into the graphics card, the other into the motherboard and the Male end ending up hooking up with the Female &lt;em&gt;Sata to Molex&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;For those curious - it works like a dream. No drivers were needed for it to run OSX - as you would’ve have read you do loose the bootscreen. I may flash it at some point, but I’m happy right now using Bootcamp on Windows to boot back into OSX and Bootchamp on OSX to boot into Windows.&lt;/p&gt;
 
-&lt;p&gt;Next up - I’ll write about installing Windows 8.1 and Bootcamp 5 - which technically isn’t supported, but works fine.&lt;/p&gt;
+&lt;p&gt;I also had to purchase a DisplayPort cable - I’m currently running this setup on an ultra-wide LG display; and OSX was being rather difficult with outputting anything beyond 1080p via HDMI.&lt;/p&gt;
 
-&lt;p&gt;I’ll also throw in pictures of the install next time I open up the Mac on this post.&lt;/p&gt;
+&lt;p&gt;Next up - I’ll write about installing Windows 8.1 and Bootcamp 5 - which technically isn’t supported, but works fine.&lt;/p&gt;
 </content>
  </entry>
  
