@@ -1,37 +1,21 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<title>Shaz Amjad - hacker, jetsetter, competitive dancer and non-burly biker</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,500' rel='stylesheet' type='text/css'>
+<link type='text/css' href='style.css' rel='stylesheet' />
+<h1>Shaz Amjad<br /><small>hacker, jetsetter, competitive dancer and non-burly biker</small></h1>
+<p>Currently the tech genius<sup>*</sup> at <a href='http://brosa.com.au'>Brosa</a>, all the way down under.</p>
+<p>Much longer at <a href='http://venuemob.com.au'>Venuemob</a> before then.</p>
+<p>Built <a href='http://www.qreer.com'>Qreer</a> and <a href='http://www.notgoingtouni.co.uk'>Not Going to Uni</a> in a past life.</p>
+<p>Current scratching my non-existant beard with <a href='http://laravel.com'>Laravel</a> and <a href='https://www.mongodb.org'>Mongo</a>. Dabble with <a href='http://backbonejs.org'>Backbone</a>, love <a href='http://coffeescript.org'>Coffeescript</a>.</p>
+<p>King's Alumni, Mechanical Engineering.</p>
+<p>Rediscovering my cricketing form, jump in the pool every now and again and more often than not you'll find me shaking my bum to music.</p>
+<p><em><sup>*</sup>Colleagues may disagree.</em></p>
+<!--
+<hr />
+<h2>Blurbs</h2>
+<p>
+  <a href="#">Gaming on an '08 Mac Pro</a><br />
+  <a href="#">Ghetto Database Backups</a><br />
+  <a href="#"></a><br />
+</p>
+-->
